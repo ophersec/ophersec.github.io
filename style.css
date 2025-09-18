@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -6,10 +7,16 @@ body {
   line-height: 1.6;
 }
 
+/* Hero Section */
 .hero {
   text-align: center;
   padding: 100px 20px;
   background: linear-gradient(180deg, #0A1525, #0F1C33);
+}
+
+.logo {
+  max-width: 240px;
+  margin-bottom: 20px;
 }
 
 .hero h1 {
@@ -32,8 +39,14 @@ body {
   text-decoration: none;
   border-radius: 4px;
   font-weight: bold;
+  transition: background 0.3s;
 }
 
+.btn:hover {
+  background: #b9932f;
+}
+
+/* About & Services */
 .about, .services, .contact {
   padding: 60px 20px;
   max-width: 1000px;
@@ -58,4 +71,26 @@ h2 {
   background: #111C2E;
   padding: 20px;
   border-radius: 8px;
+}
+
+h3 {
+  color: #C0C0C0;
+}
+
+/* Contact Footer */
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+  background: #0A1525;
+  border-top: 1px solid #222;
+}
+
+.contact a {
+  color: #D4AF37;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
 }
